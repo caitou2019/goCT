@@ -1,22 +1,3 @@
-// What it does:
-//
-// This example uses a deep neural network to perform object detection.
-// It can be used with either the Caffe face tracking or Tensorflow object detection models that are
-// included with OpenCV 3.4
-//
-// To perform object tracking with the Tensorflow model:
-//
-// Download and extract the model file named "frozen_inference_graph.pb" from:
-// http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17.tar.gz
-//
-// You will also need the pbtxt config file:
-// https://gist.githubusercontent.com/dkurt/45118a9c57c38677b65d6953ae62924a/raw/b0edd9e8c992c25fe1c804e77b06d20a89064871/ssd_mobilenet_v1_coco_2017_11_17.pbtxt
-//
-// How to run:
-//
-// 		go run ./cmd/dnn-detection/main.go [videosource] [modelfile] [configfile] ([backend] [device])
-//
-
 package main
 
 import (
